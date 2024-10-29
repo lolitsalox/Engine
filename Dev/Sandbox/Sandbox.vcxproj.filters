@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="Sandbox.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Sandbox.cpp">
+      <Filter>Sandbox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sandbox">
+      <UniqueIdentifier>{74911ea1-49eb-4629-a45d-49d3c8e5d0bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sandbox.hpp">
+      <Filter>Sandbox</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -6,6 +6,9 @@ BOOL APIENTRY DllMain(
     LPVOID reserved
 )
 {
+    UNREFERENCED_PARAMETER(module);
+    UNREFERENCED_PARAMETER(reserved);
+
     switch (reason)
     {
     case DLL_PROCESS_ATTACH:
